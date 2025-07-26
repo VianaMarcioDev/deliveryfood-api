@@ -2,10 +2,7 @@ package br.com.marcioviana.deliveryfood.di.service;
 
 import br.com.marcioviana.deliveryfood.di.modelo.Cliente;
 import br.com.marcioviana.deliveryfood.di.notificacao.Notificador;
-import br.com.marcioviana.deliveryfood.di.notificacao.NotificadorEmail;
-import org.springframework.stereotype.Component;
 
-@Component
 public class AtivacaoClienteService {
 
     private Notificador notificador;
